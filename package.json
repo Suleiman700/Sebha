@@ -1,0 +1,37 @@
+{
+  "name": "io.cordova.hellocordova",
+  "displayName": "HelloCordova",
+  "version": "1.0.0",
+  "description": "A sample Apache Cordova application that responds to the deviceready event.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "ecosystem:cordova"
+  ],
+  "author": "Apache Cordova Team",
+  "license": "Apache-2.0",
+  "devDependencies": {
+    "cordova-android": "^13.0.0",
+    "cordova-plugin-signed-bundle": "^1.0.1",
+    "cordova-plugin-vibration": "^3.1.1"
+  },
+  "cordova": {
+    "platforms": [
+      "android"
+    ],
+    "plugins": {
+      "cordova-plugin-admob-free": {
+        "ADMOB_APP_ID": "ca-app-pub-8260802524538941~5411802917"
+      },
+      "cordova-plugin-vibration": {},
+      "cordova-plugin-signed-bundle": {}
+    }
+  },
+  "dependencies": {
+    "cordova-admob-sdk": "0.24.1",
+    "cordova-plugin-admob-free": "0.27.0",
+    "cordova-promise-polyfill": "0.0.2"
+  }
+}

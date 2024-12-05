@@ -1,0 +1,18 @@
+{
+  "android": {
+    "debug": {
+      "keystore": "./sebha.keystore",
+      "storePassword": "123456",
+      "alias": "sebha",
+      "password" : "123456",
+      "keystoreType": "jks"
+    },
+    "release": {
+      "keystore": "./sebha.keystore",
+      "storePassword": "123456",
+      "alias": "sebha",
+      "password" : "123456",
+      "keystoreType": "jks"
+    }
+  }
+}

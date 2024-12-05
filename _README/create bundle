@@ -1,0 +1,4 @@
+cordova build android --release -- --keystore=ABC.keystore --storePassword=123 --alias=ABC --password=123 --packageType=bundle
+cd platforms/android
+./gradlew bundleRelease
+Take a look into platforms/android/app/build and you'll find .apk file in apk folder as well as .aab in bundle/release.

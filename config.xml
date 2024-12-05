@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='utf-8'?>
+<widget id="io.cordova.sebha" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+    <name>المسبحة الالكترونية</name>
+    <description>تطبيق المسبحة الالكترونية</description>
+    <author email="dev@cordova.apache.org" href="https://cordova.apache.org">
+        Apache Cordova Team
+    </author>
+    <content src="index.html" />
+    <allow-intent href="http://*/*" />
+    <allow-intent href="https://*/*" />
+    <platform name="android">
+        <preference name="AndroidWindowSplashScreenAnimatedIcon" value="assets/img/app_logo.png" />
+
+        <preference name="signed_bundle_keystore_path" value="../android.keystore" />
+        <preference name="signed_bundle_keystore_alias" value="nl.cnc.alias" />
+
+        <icon src="assets/img/app_logo.png" density="mdpi" />
+        <icon src="assets/img/app_logo.png" density="ldpi" />
+        <icon src="assets/img/app_logo.png" density="hdpi" />
+        <icon src="assets/img/app_logo.png" density="xhdpi" />
+        <icon src="assets/img/app_logo.png" density="xxhdpi" />
+    </platform>
+</widget>
