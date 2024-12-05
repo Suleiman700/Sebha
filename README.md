@@ -6,6 +6,11 @@ A modern digital tasbeeh (prayer beads) application built with Apache Cordova, d
 
 ### Video Demonstration
 
+https://github.com/user-attachments/assets/40d88aa6-e626-4c5f-9851-b8a7fb842fab
+
+
+
+
 ### Screenshots
 
 #### Mobile Views
